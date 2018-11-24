@@ -23,10 +23,6 @@ mongoose
 let port = 5000 || process.env.PORT;
 
 /** set up routes {API Endpoints} */
-router.route("*").get((req, res, next) => {
-  console.log("GET req.url", req.url);
-  next();
-});
 routes(router);
 
 /** set up middlewares */
