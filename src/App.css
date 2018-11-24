@@ -1,0 +1,44 @@
+.App {
+  padding: 50px;
+}
+.searchResult {
+  margin: 15px 0px;
+  padding: 5px;
+}
+.searchResult:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.resultThumbnail {
+  padding: 10px;
+}
+
+.details {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.dropdown {
+  float: right;
+}
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.title {
+  display: inline-block;
+}
+
+.itemTitle {
+  font-size: 40px;
+  margin-left: 125px;
+}
+
+.itemImage {
+  position: absolute;
+}
+
+.itemDetails {
+  margin-top: 60px;
+}
