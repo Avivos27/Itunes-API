@@ -19,10 +19,8 @@ class Item extends Component {
     let url = window.location.href;
     let split = url.split("/");
     let id = split[split.length - 1];
-    console.log("id", id);
     this.setState({ id });
     axios.get(`${API_URL}itunes/item/${id}`).then(res => {
-      console.log("res", res);
       this.setState({ item: res.data });
     });
   }
