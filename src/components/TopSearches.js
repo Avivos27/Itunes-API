@@ -25,7 +25,6 @@ class TopSearches extends Component {
   updateQueries() {
     axios.get(`${API_URL}searchQueries`).then(res => {
       let queries = res.data;
-      console.log("queries", queries);
       this.setState({ queries });
     });
   }
